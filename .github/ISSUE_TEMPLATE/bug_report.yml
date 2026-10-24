@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a reproducible problem with synthetic data
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Version and environment
+      description: Tool version, Python version and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction
+      description: Exact command, expected result, actual result, and a small synthetic input. Remove all private data.
+    validations:
+      required: true

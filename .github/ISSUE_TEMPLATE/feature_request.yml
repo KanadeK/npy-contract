@@ -1,0 +1,10 @@
+name: Feature request
+description: Describe a concrete missing workflow
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem and existing alternatives
+      description: Who encounters this, how often, and what cannot currently be done?
+    validations:
+      required: true
